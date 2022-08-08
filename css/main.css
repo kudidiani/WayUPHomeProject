@@ -1,0 +1,180 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 0.74px;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+p, h1 {
+    margin: 0;
+}
+.header{
+    background: #3b98e0;
+    color: white;
+}
+.container {
+    padding-left: 210px;
+    padding-bottom: 37px;
+    margin-right: 0px;
+}
+.logo{
+    padding-top: 66px;
+    padding-bottom: 129px;
+}
+.title{
+    font-family: Ubuntu, sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 49px;
+    text-align: left;
+    width: 455px;
+}
+.title span {
+    font-size: 59px;
+    font-style: normal;
+    letter-spacing: 1.18px;
+    line-height: 73px;
+}
+.motivation{
+    padding-top: 36px;
+    width: 397px;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-weight: 900;
+    width: 225px;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    color: #2e2a1b;
+    background: #ffd429;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #dffc03;
+}
+.headerInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 656px;
+}
+.travelImg{
+    padding-top: 120px;
+}
+.future{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.imglittle{
+    width: 63px;
+    height: 60px;
+}
+.centreFuture{
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    width: 287px;
+
+}
+.h3Future{
+    font-family: Ubuntu, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+.future p{
+    color: #201b2d;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: center;
+}
+.future{
+    margin: 80px 190px;
+}
+.h2future{
+    text-align: center;
+    font-size: 30px;
+
+}
+.futureProfit{
+    margin-top: 80px;
+    margin-bottom: 80px ;
+    margin-left: 11px;
+}
+.img3{
+    height: 60px;
+    width: 45px;
+}
+.future1{
+    width: 400px;
+}
+.future3{
+    width: 300px;
+}
+.registration{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #ecf3f8;
+    padding-bottom: 50px;
+}
+.h2ForRegistration{
+    padding-top: 60px;
+    color: #201b2d;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+}
+.inputdiv{
+    justify-content: center
+}
+.input{
+    display: block;
+    margin-bottom: 10px;
+    width: 343px;
+    color: #9da3a2;
+    font-family: Ubuntu;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+    text-align: left;
+    height: 48px;
+    border:1px solid #9da3a2;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+.btn2{
+    cursor: pointer;
+    border: 0;
+    width: 343px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #164d7a;
+    padding: 62px 66px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 25px;
+}
